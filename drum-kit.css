@@ -1,0 +1,29 @@
+body{
+    background-image:url(/background.jpg);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.key{
+    width:70px;
+    height:70px;
+    background:rgba(0,0,0,0.4);
+    padding:20px;
+    border:4px solid black;
+    margin:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+kbd{
+    font-size:48px;
+    color:white;
+}
+
+span{
+    color:yellow;
+}
