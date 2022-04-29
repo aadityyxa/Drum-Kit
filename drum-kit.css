@@ -17,6 +17,7 @@ body{
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    transition:0.07s;
 }
 
 kbd{
@@ -26,4 +27,10 @@ kbd{
 
 span{
     color:yellow;
+}
+
+.playing{
+    border:4px solid #ffc600;
+    box-shadow:0 0 10px;
+    transform:scale(1.1);
 }
